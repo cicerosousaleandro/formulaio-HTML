@@ -47,6 +47,41 @@ textarea {
 
 }
 
+/* container do formulário */ 
+
+
+
+.form-container {
+	background-color: #FFF;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -62px;
+
+}
+
+/* cabeçalho do formulário */
+
+.form-header {
+	border-bottom: 1px solid #dfdfdf;
+	height: 45px;
+}
+
+.form-header p {
+	color: #673ab7;
+	border-bottom: 2px solid #673ab7;
+	width: 100px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	text-transform: uppercase;
+	height: 45px;
+	line-height: 45px;
+
+
+}
+
 /* Corpo do formulário */
 
 .form-body {
@@ -91,4 +126,11 @@ textarea {
 	text-transform: uppercase;
 	cursor: pointer;
 	transition: 5s;
+}
+
+.btn-submit:hover {
+	background-color: #fff;
+	border-color: #673ab7;
+	color: #673ab7;
+
 }
